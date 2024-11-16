@@ -153,7 +153,6 @@ It contains statements that map logical library names to their physical director
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 ![Screenshot (99)](https://github.com/user-attachments/assets/b38ad80a-553b-4384-a3b6-fe986b42bc06)
 ## Fig 8: Elaboration Launch Option
-
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 	Inputs: Compiled and Elaborated top level module name 
