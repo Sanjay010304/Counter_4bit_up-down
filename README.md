@@ -164,5 +164,6 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 ![Screenshot (100)](https://github.com/user-attachments/assets/8f355b07-d169-4b08-977c-e55d754d3a34)
 ## Fig 9: Design Browser window for simulation
+
 ![Screenshot (102)](https://github.com/user-attachments/assets/8690549e-feec-48fb-9580-6a33412910e3)
 ## Fig 10: Simulation Waveform Window
