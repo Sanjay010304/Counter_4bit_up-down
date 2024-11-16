@@ -74,13 +74,13 @@ Functional Simulation:
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
-
+![Screenshot (103)](https://github.com/user-attachments/assets/de80066a-cb30-49d5-a61b-75df2a64d9e6)
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
-
+![Screenshot (104)](https://github.com/user-attachments/assets/55b7b0d2-e76e-4b1a-9264-1b3c771dc165)
 ## Fig 4: cds.lib file Creation
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
@@ -122,7 +122,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
-
+![Screenshot (98)](https://github.com/user-attachments/assets/55a47d29-61fc-4643-aa2e-ead6153b6778)
 ## Fig 7: Compiled database in worklib
 
 	After compilation it will come under worklib you can see in right side window
@@ -151,7 +151,7 @@ It contains statements that map logical library names to their physical director
 9.	It also establishes net connectivity and prepares all of this for simulation
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
-
+![Screenshot (99)](https://github.com/user-attachments/assets/b38ad80a-553b-4384-a3b6-fe986b42bc06)
 ## Fig 8: Elaboration Launch Option
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -163,10 +163,7 @@ It contains statements that map logical library names to their physical director
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
-
+![Screenshot (100)](https://github.com/user-attachments/assets/8f355b07-d169-4b08-977c-e55d754d3a34)
 ## Fig 9: Design Browser window for simulation
-
+![Screenshot (102)](https://github.com/user-attachments/assets/8690549e-feec-48fb-9580-6a33412910e3)
 ## Fig 10: Simulation Waveform Window
-
-## Fig 11: Simulation Waveform Window
-
