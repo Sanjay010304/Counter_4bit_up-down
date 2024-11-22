@@ -27,7 +27,6 @@ The output is Counter which is 4 bit in size.
 ![image](https://github.com/user-attachments/assets/efe1095e-989e-4005-b53b-e9dc50d4025c)
 
 ## Fig 1: 4 Bit Up/Down Counter
-
 ## Creating a Work space :
 
 	Create a folder in your name (Note: Give folder name without any space) and Create a new sub-Directory name it as Exp2 or counter_design for the Design and open a terminal from the Sub-Directory.
@@ -41,7 +40,6 @@ Functional Simulation:
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
-
 ![Screenshot 2024-11-13 100723](https://github.com/user-attachments/assets/735320f4-55a2-4979-98a9-e4b4b9fd2c8f)
 ## Fig 2: Invoke the Cadence Environment
 
