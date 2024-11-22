@@ -42,7 +42,7 @@ Functional Simulation:
       
 	After this you can see the window like below 
 
-
+![Screenshot 2024-11-13 100723](https://github.com/user-attachments/assets/735320f4-55a2-4979-98a9-e4b4b9fd2c8f)
 ## Fig 2: Invoke the Cadence Environment
 
 
@@ -65,6 +65,47 @@ Functional Simulation:
 	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
 
 ### Test-bench code for 4-Bit Up-Down Counter:
+`timescale 1ns / 1ns
+
+module counter_test;
+
+reg clk,rst,m;
+
+wire [3:0] count;
+
+initial
+
+begin
+
+clk=0;
+
+rst=0;#5;
+
+rst=1;
+
+end
+
+initial
+
+begin
+
+m=1;
+
+#160 m=0;
+
+end
+
+counter counter1 (clk,m,rst, count);
+
+always #5 clk=~clk;
+ 
+initial $monitor("Time=%t rst=%b clk=%b count=%b" , $time,rst,clk,count);
+
+initial
+
+#320 $finish;
+
+endmodule
 
 */Test bench Program  for  4-Bit Up-Down Counter
 
@@ -88,7 +129,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
-
+![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
 ## Fig 5: Selection of Don’t include any libraries
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
@@ -99,6 +140,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
+![Screenshot (97)](https://github.com/user-attachments/assets/a1b189ea-3c09-4464-9c33-5e07ab26f4d4)
 ## Fig 6: Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
