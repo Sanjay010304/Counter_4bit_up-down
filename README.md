@@ -63,6 +63,7 @@ Functional Simulation:
 	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
 
 ### Test-bench code for 4-Bit Up-Down Counter:
+```
 `timescale 1ns / 1ns
 
 module counter_test;
@@ -104,6 +105,7 @@ initial
 #320 $finish;
 
 endmodule
+```
 
 */Test bench Program  for  4-Bit Up-Down Counter
 
